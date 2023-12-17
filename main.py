@@ -31,7 +31,7 @@ async def echo_handler(message: types.Message) -> None:
 
 # Polling
 async def main() -> None:
-    bot = Bot("6759334595:AAG0zuN-iv0RZ7jCx_CVg7UJjk_wt-3iaFQ", parse_mode=ParseMode.HTML)
+    bot = Bot("6759334595:AAG0zuN-iv0RZ7jCx_CVg7UJjk_wt-3iaF", parse_mode=ParseMode.HTML)
     await dp.start_polling(bot)
 
 
